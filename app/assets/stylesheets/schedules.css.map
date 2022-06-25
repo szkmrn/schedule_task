@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGA,QAAQ;EACJ,gBAAgB,EAAC,OAAO;EACxB,OAAO,EAAC,SAAS",
+"sources": ["schedules.scss"],
+"names": [],
+"file": "schedules.css"
+}

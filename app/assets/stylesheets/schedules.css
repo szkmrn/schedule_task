@@ -1,0 +1,30 @@
+
+
+/*# sourceMappingURL=schedules.css.map */
+
+table{
+    border-collapse:separate;
+    border-spacing: 3px;
+}   
+h3{
+    padding-left:5px;
+}
+table th{
+    background-color: #AEFFBD;
+    padding:10px 20px;
+    font-weight:bold;
+    
+}
+
+
+table td{
+    background-color: #E6FFE9;
+    padding:10px 20px;
+
+}
+
+.schedule-create{
+    text-decoration: none;
+    color:#000;
+    
+}
