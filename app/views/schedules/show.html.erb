@@ -1,0 +1,35 @@
+<h3>スケジュール詳細</h3>
+
+<table>
+  <tr>
+      <th>タイトル</th>
+      <td><%= @schedule.title %></td>
+  </tr>
+  <tr>
+      <th>開始日</th>
+      <td><%= @schedule.start.strftime("%Y年 %m月 %d日")%></td>
+  </tr>
+  <tr>
+      <th>投稿日時</th>
+      <td><%= @schedule.updated_at.strftime("%Y年 %m月 %d日") %></td>
+  </tr>
+  <tr>
+      <th>終日</th>
+      <td>
+        <% if @schedule.period == true %>
+        ○
+        <% else @schedule.period == false %>
+        <% end %>
+      </td>
+  </tr>
+  <tr>
+      <th>タイトル</th>
+      <td><%= @schedule.memo %></td>
+  </tr>
+</table>
+<div class="show_link">
+<%= link_to "スケジュールを編集する",:edit_schedule,class:"link",class:"tag link" %>
+<%= link_to "スケジュール一覧に戻る",:schedules,class:"link",class:"tag link" %>
+<%= link_to "スケジュールを削除",:schedules,method: :delete,class:"link",class:"tag link",data:{confirm:"本当に削除しますか？"} %>
+</div>
+
