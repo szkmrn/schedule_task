@@ -1,0 +1,95 @@
+
+
+/*# sourceMappingURL=schedules.css.map */
+
+table{
+    border-collapse:  collapse;  
+    margin-left:5px;
+}   
+h3{
+    padding:20px 0px 10px 5px;
+}
+tr{
+    text-align: center;
+}
+th{
+    background-color: #AEFFBD;
+    padding:10px 20px;
+    font-weight:bold;
+    border: solid 1px;  
+    
+}
+
+td{
+    background-color: #E6FFE9;
+    padding:10px 20px;
+    border: solid 1px; 
+    text-align: center;
+}
+
+p{
+    padding:20px 5px;
+}
+ul{
+    border:groove red;
+    width:fit-content;
+}
+li{
+    list-style:none;
+    color:red;
+    padding-right: 30px;
+}
+
+.link{
+    text-decoration: none;
+    color:#000;
+    
+}
+.link:hover{
+    text-decoration: none;
+    color:green;
+}
+    
+
+.schedule_input {
+    width:100%;
+}
+.schedule_form textarea {
+    width:100%;
+    height:100px;
+}
+.schedule_check {
+    margin:auto;
+    text-align: center;
+    
+}
+.schedule_check input{
+    display:block;
+    margin:0 auto;
+}
+
+.schedule_form th {
+    text-align: center;
+    
+}
+.schedule_submit{
+    width: 25%; 
+    margin-top:20px;
+    margin-left:5px
+}
+.schedule_index {
+    margin-left:5px;
+}
+.tag {
+    display: block;
+}
+.show_link{
+    margin:10px 5px;
+    
+}
+.notice{
+    border:dashed #808000;
+}
+.edit_link{
+    margin:5px;
+}
