@@ -1,5 +1,7 @@
 <h3>スケジュール新規作成</h3>
 
+<%= render "shared/error",obj:@schedule %>
+
 <%= form_with model: @schedule do |f| %>
 <div class="schedule_form">
   <table>

@@ -1,0 +1,6 @@
+ja:
+  activerecord:
+    attributes:
+      schedule:
+        end: 終了日
+        

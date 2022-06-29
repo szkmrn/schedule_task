@@ -30,6 +30,15 @@ td{
 p{
     padding:20px 5px;
 }
+ul{
+    border:groove red;
+    width:fit-content;
+}
+li{
+    list-style:none;
+    color:red;
+    padding-right: 30px;
+}
 
 .link{
     text-decoration: none;
